@@ -1,0 +1,143 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-16 15:35:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 22:36:17
+*/
+a{
+	color: black;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 1.97rem;
+	background: #1fabe0;
+	color: white;
+	padding-top: 0.85rem;
+	padding-left: 0.6rem;
+	position: relative;
+}
+header .icon-shezhi{
+	position: absolute;
+	top: 0.5rem;
+	left: .33rem;
+	font-size: 0.4rem;
+}
+header .icon-msg-system{
+	position: absolute;
+	top: 0.5rem;
+	right: .33rem;
+	font-size: 0.4rem;
+}
+header .pay{
+	width: 6.25rem;
+	height: 2.5rem;
+	background: #79d5f7;
+	position: fixed;
+	top: 1.3rem;
+	left: 0.67rem;
+	border-radius: 0.1rem;
+	padding: 0.43rem 0.43rem;
+}
+header .pay .img{
+	width: 1.43rem;
+	height: 1.65rem;
+	border-radius: 0.1rem;
+	float: left;
+}
+header .pay .text{
+	float: left;
+	padding: 0.25rem 0.25rem 0 0.25rem;
+}
+header .pay h1{
+	font-size: 0.4rem;
+	color: white;
+	font-weight: normal;
+}
+header .pay p{
+	font-size: 0.22rem;
+	color: white;
+	margin-top: 0.1rem;
+}
+header .pay h2{
+	font-size: 0.22rem;
+	color: white;
+	font-weight: normal;
+	margin-top: 0.1rem;
+}
+main{
+	padding: 0 0.24rem;
+	margin-top: 2.2rem;
+}
+main ul li{
+	width: 100%;
+	height: 0.9rem;
+	background: #79d5f7;
+	margin-bottom: 0.24rem;
+	border-radius: 0.1rem;
+	color: white;
+	padding-top: 0.15rem;
+}
+main ul li h3{
+	font-size: 0.26rem;
+	font-weight: normal;
+	padding-left: 0.9rem;
+}
+main ul li p{
+	font-size: 0.22rem;
+	padding-left: 0.9rem;
+}
+main ul li .iconfont{
+	display: block;
+	float: left;
+	font-size: 0.5rem;
+	padding-left: 0.24rem;
+}
+main ul li .back{
+	float: right;
+	font-size: 0.5rem;
+	margin-top: -0.6rem;
+	padding-right: 0.24rem;
+}
+.tab{
+	background: white;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-shadow:  0 -0.05rem 0.15rem 0.01rem rgba(0, 0, 0, 0.1);
+}
+.tab ul{
+	display: flex;
+	justify-content: space-around;
+}
+.tab ul li{
+	float: left;
+}
+.tab ul li i{
+	font-size: 0.7rem;
+}
+.tab ul li:nth-child(3) i{
+	font-size: 0.75rem;
+}
+.tab ul li i:hover{
+	color: #73d2f5;
+}
+.myself{
+	font-size: 0.4rem;
+	position: fixed;
+	top: 0.3rem;
+	left: 2.9rem;
+	color: white;
+	z-index: 999;
+}
+.eng{
+	font-size: 0.34rem;
+	position: fixed;
+	top: 0.6rem;
+	left: 2.5rem;
+	color: rgba(255, 255, 255, 0.6);
+}

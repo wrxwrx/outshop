@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>确认订单</title>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_789585_lyu014rbm8r.css">
+	<link rel="stylesheet" href="css/yes.css">
+	<link rel="stylesheet" href="css/new.css">
+	<link rel="stylesheet" href="css/rem.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<header>
+		<a href="sale.html"><i class="iconfont icon-fanhui"></i></a>
+		<i class="iconfont icon-fenxiang"></i>
+		<p>订单配送至</p>
+		<h4>太原理工大学迎西小区10号楼</h4>
+		<h3>随遇而安（女士）18888888888</h3>
+	</header>
+	<main>
+		<div class="top">
+			<div class="left">
+				<h3>送达时间</h3>
+				<p>准时达服务：超时10分钟享赔付</p>
+			</div>
+			<div class="right">尽快送达(10:20送达)</div>
+			<div class="pay"></div>
+		</div>
+		<div class="bottom">
+			支付方式
+			<i class="iconfont icon-xiayiye1"></i>
+		</div>
+	</main>
+	<section>
+		<ul>
+			<li>
+				<h3>灰太狼烤肉拌饭</h3>
+			</li>
+			<li>
+				<div class="box">
+					<img src="img/adsasd.png" alt="">
+				</div>
+				<h2>蜜汁烤肉饭×1</h2>
+				<p class="p1">$32.8</p>
+			</li>
+			<li>
+				<h1>红包</h1>
+				<p class="p2">无可用红包
+				<i class="iconfont icon-xiayiye1"></i>
+				</p>
+			</li>
+			<li>
+				<h4>小计</h4>
+				<p class="p3">(满15元减4元)</p>
+				<p class="p4">￥28.8</p>
+			</li>
+			<li>
+				<h5>订单备注</h5>
+				<p class="p5">口味、偏好
+					<i class="iconfont icon-xiayiye1"></i>
+				</p>
+			</li>
+			<li>
+				<h6>餐具份数</h6>
+				<p class="p6">未选择
+				<i class="iconfont icon-xiayiye1"></i></p>
+			</li>
+		</ul>
+	</section>
+	<footer>￥22.8
+		<a href="one.html"><div class="go">去结算</div></a>
+		</footer>
+		<div class="fangshi">
+			<ul>
+				<li>选择支付方式</li>
+				<li>
+					<i>
+						<img src="img/i1.png" alt="">
+					</i>
+					<p>账户余额</p>
+				</li>
+				<li>
+					<i>
+						<img src="img/i2.png" alt="">
+					</i>
+					<p>支付宝支付</p>
+				</li>
+				<li>
+					<i>
+						<img src="img/i3.png" alt="">
+					</i>
+					<p>微信支付</p>
+				</li>
+				<li>
+					<i>
+						<img src="img/i4.png" alt="">
+					</i>
+					<p class="p2">银行卡支付</p>
+				</li>
+				<li>
+					<i>
+						<img src="img/i5.png" alt="">
+					</i>
+					<p>其他第三方支付</p>
+				</li>
+			</ul>
+		</div>
+</body>
+</html>
+<script>
+	let bottom=document.querySelector(".bottom");
+    let section=document.querySelector("section");
+    let footer=document.querySelector("footer");
+    let fangshi=document.querySelector(".fangshi");
+    let li=document.querySelectorAll(".fangshi ul li")[4];
+    console.log(li);
+    bottom.onclick=function () {
+			section.style.display="none";
+            footer.style.display="none";
+            fangshi.style.display="block";
+        }
+    li.onclick=function () {
+        li.style.background="#76d4f6";
+        li.style.color="white";
+        window.open("pay.html",'_self');
+    }
+</script>

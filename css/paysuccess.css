@@ -1,0 +1,181 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-14 13:47:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 19:16:29
+*/
+.pad{
+	padding: 0 0.24rem;
+}
+header{
+	width: 100%;
+	height: 0.97rem;
+	background: #79d5f7;
+	color: white;
+	padding-top: 0.85rem;
+	padding-left: 0.6rem;
+	position: relative;
+}
+header .icon-fanhui{
+	position: absolute;
+	top: 0.23rem;
+	left: .33rem;
+	color: white;
+}
+header .icon-fenxiang{
+	position: absolute;
+	top: 0.23rem;
+	right: .33rem;
+}
+main{
+	width: 100%;
+	height: 2.73rem;
+	background: #79d5f7;
+	margin-top: 0.24rem;
+	border-radius: 0.1rem;
+	padding: 0.24rem;
+}
+main .boxi{
+	width: 2.14rem;
+	height: 2.25rem;
+	background: red;
+	border-radius: 0.1rem;
+	float: left;
+	background-image: url('../img/qw1.png');
+	background-size: cover;
+}
+main .text{
+	float: left;
+	padding: 0.4rem 0.55rem;
+}
+main .text h1{
+	font-size: 0.4rem;
+	color: white;
+	font-weight: normal;
+}
+main .text p{
+	font-size: 0.4rem;
+	color: white;
+	margin-top: 0.2rem;
+}
+.suc{
+	font-size: 0.34rem;
+	color: black;
+	text-align: center;
+	line-height: 1rem;
+	position: relative;
+	margin-top: 0.55rem;
+}
+.suc:after{
+	content: "";
+	display: block;
+	width: 0.05rem;
+	height: 0.26rem;
+	position: absolute;
+	border-radius: 0.05rem;
+	top: 0.38rem;
+	left: 2.6rem;
+	background: #aaaaaa;
+}
+.suc:before{
+	content: "";
+	display: block;
+	width: 0.05rem;
+	height: 0.26rem;
+	position: absolute;
+	border-radius: 0.05rem;
+	top: 0.38rem;
+	right: 2.6rem;
+	background: #aaaaaa;
+}
+.eng{
+	font-size: 0.24rem;
+	color: #595858;
+	text-align: center;
+	margin-top: -0.3rem;
+}
+.button{
+	display: flex;
+	padding: 0.4rem 0.65rem 0;
+}
+.back,.goon{
+	width: 1.97rem;
+	height: 0.8rem;
+	background: #79d5f7;
+	font-size: 0.34rem;
+	color: white;
+	text-align: center;
+	line-height: 0.8rem;
+	border-radius: 0.4rem;
+}
+.goon{
+		margin-left: 1.4rem;
+}
+section{
+	height: 1.6rem;
+	width: 100%;
+	font-size: 0.4rem;
+	line-height: 2rem;
+}
+.left,.right{
+	height: 4.02rem;
+	width: 3.27rem;
+	background: #79d5f7;
+	float: left;
+	border-radius: 0.1rem;
+	position: relative;
+}
+.right{
+	float: right;	
+}
+.box{
+	height: 2.73rem;
+	width: 100%;
+	background: red;
+	border-top-left-radius: 0.1rem;
+	border-top-right-radius: 0.1rem;
+}
+.box1{
+	background-image: url('../img/qw2.png');
+	background-size: cover;
+}
+.box2{
+	background-image: url('../img/qw3.png');
+	background-size: cover;
+}
+.left h3{
+	font-size: 0.4rem;
+	color: white;
+	margin-left: 0.1rem;
+}
+.left p{
+	font-size: 0.18rem;
+	color: white;
+	margin-top: 0.2rem;
+	margin-left: 0.1rem;
+}
+.right h3{
+	font-size: 0.4rem;
+	margin-left: 0.1rem;
+	color: white;
+}
+.right p{
+	font-size: 0.18rem;
+	color: white;
+	margin-left: 0.1rem;
+	margin-top: 0.2rem;
+}
+.left span{
+	font-size: .34rem;
+	color: #fff100;
+	position: absolute;
+	bottom: 0.2rem;
+	right: 0.2rem;
+}
+.right span{
+	font-size: .34rem;
+	color: #fff100;
+	position: absolute;
+	bottom: 0.2rem;
+	right: 0.2rem;
+}

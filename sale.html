@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>店铺详情</title>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_789585_lyu014rbm8r.css">
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_783006_z0ja0j05vu.css">
+	<link rel="stylesheet" href="css/new.css">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/sale.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<div class="top">
+		<div class="left">
+			<img src="img/d1.png" alt="">
+		</div>
+		<div class="right">
+			<h1>灰太狼烤肉拌饭</h1>
+					<p>
+						<i class="iconfont icon-iconfontxingxing"></i>
+						<i class="iconfont icon-iconfontxingxing"></i>
+						<i class="iconfont icon-iconfontxingxing"></i>
+						<i class="iconfont icon-iconfontxingxing"></i>
+						<i class="iconfont icon-iconfontxingxing"></i>
+						4.0
+						<span>月售252</span>
+					</p>
+					<div class="qi">起送￥15|配送费￥4</div>
+					<div class="jian">
+						<div class="tubiao">满减</div>
+						<span>满10减2，满30减15，满50减20
+						</span>
+						</div>
+					<div class="te">
+						<div class="tubiao">特价</div>
+						<span>特价商品5元起</span>
+					</div>
+		</div>
+	</div>
+	<div class="center">
+		<div class="left">
+			<div class="dot">热销</div>
+			<div class="dot">优惠</div>
+			<div class="dot">单人套餐</div>
+			<div class="dot">双人套餐</div>
+			<div class="dot">家庭套餐</div>
+			<div class="dot">小吃</div>
+		</div>
+		<div class="right">
+			<ul>
+				<li>
+					<a href="goods.html"><div class="p">
+						<img src="img/e1.png" alt="" class="img1">
+					</div></a>
+					<div class="t">
+						<h2>蜜汁烤肉饭</h2>
+						<p>蜜汁烤肉饭+烤肠+卤蛋</p>
+						<p>月售108 好评率96%</p>
+						<div class="money">￥32.8</div>
+						<img src="img/jia.png" alt="" class="img">
+					</div>
+					</li>
+				<li>
+					<div class="p">
+						<img src="img/e1.png" alt="" class="img1">
+					</div>
+					<div class="t">
+						<h2>孜然烤肉饭</h2>
+						<p>孜然烤肉饭+烤肠+卤蛋</p>
+						<p>月售108 好评率96%</p>
+						<div class="money">￥32.8</div>
+						<img src="img/jia.png" alt="" class="img">
+					</div>
+				</li>
+				<li>
+					<div class="p">
+						<img src="img/e1.png" alt="" class="img1">
+					</div>
+					<div class="t">
+						<h2>香辣烤肉饭</h2>
+						<p>香辣烤肉饭+烤肠+卤蛋</p>
+						<p>月售108 好评率96%</p>
+						<div class="money">￥32.8</div>
+						<img src="img/jia.png" alt="" class="img">
+					</div>
+				</li>
+				<li>
+					<div class="p">
+						<img src="img/e1.png" alt="" class="img1">
+					</div>
+					<div class="t">
+						<h2>番茄烤肉饭</h2>
+						<p>番茄烤肉饭+烤肠+卤蛋</p>
+						<p>月售108 好评率96%</p>
+						<div class="money">￥32.8</div>
+						<img src="img/jia.png" alt="" class="img">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="tab">
+		<a href="javascript:;"><div class="song">￥20起送</div></a>
+		<h1>未选购商品</h1>
+		<p>另需配送费3.5元</p>
+	</div>
+	<div class="yuan iconfont icon-gouwuchekong"></div>
+	<a href="frist.html"><div class="back iconfont icon-fanhui"></div></a>
+	<div class="link iconfont iconfont icon-fenxiang"></div>
+	<div class="box">
+		<img src="img/ba3.png" alt="" class="imggg">
+		<p class="one">蜜汁烤肉饭</p>
+		<p class="two">月售 108</p>
+		<div class="pic">
+			<img src="img/jianjian.png" alt="">
+		</div>
+		<span>1</span>
+		<div class="pic1">
+			<img src="img/jia.png" alt="">
+		</div>
+		<p class="three">合计：¥95</p>
+		<a href="yes.html"><div class="box-one">确认支付</div></a>
+	</div>
+
+</body>
+</html>
+<script>
+	let add=document.querySelectorAll(".t img");
+    let song=document.querySelector(".song");
+    let che=document.querySelector(".icon-gouwuchekong");
+    let tab=document.querySelector(".tab");
+    let box=document.querySelector(".box");
+    console.log(che);
+    for(let i=0;i<add.length;i++){
+        add[i].onclick=function () {
+            song.style.background="#71d1f5";
+            song.style.color="white";
+            song.innerHTML="去结算";
+            che.style.background="white";
+            che.style.color="#79d5f7";
+            tab.style.background="rgba(0,0,0,0.8)"
+        }
+	}
+    song.onclick=function () {
+        if(song.innerHTML=="去结算"){
+		box.style.display="block"};
+    }
+</script>
